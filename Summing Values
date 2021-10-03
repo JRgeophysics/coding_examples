@@ -1,0 +1,12 @@
+# Summing a list of values of values
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+counter = 0
+
+for items in my_list:
+    counter = counter + items #Not '0', as each iteration would reset, and the end result would = 10
+print(counter)
+
+# NOTE: List slicing can be used to select parts of a list. E.g. [2:5:] after my_list in the loop would select the 
+# indexes 2, 3, and 4... Therefore totally 12
