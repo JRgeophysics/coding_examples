@@ -1,0 +1,7 @@
+import math # Import the relevant library so that sqrt() function can be used
+
+def pythag(x, y):
+    pythag_result = math.sqrt((x ** 2) + (y ** 2))
+    print(pythag_result)
+
+pythag(3, 4) # Calling the function for a float value of 5.0 will be displayed
